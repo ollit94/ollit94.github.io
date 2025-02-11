@@ -111,6 +111,12 @@ h1, h2 {
   margin-bottom: 15px;
     width: 50%;
 }
+
+@media (min-width: 768px) {
+    .hobby {
+        width: 33.33333333%;
+    }
+}
 .hobby-icon {
   font-size: 2rem;
   color: #86b7fe;
