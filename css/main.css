@@ -117,6 +117,17 @@ h1, h2 {
         width: 33.33333333%;
     }
 }
+@media (max-width: 768px) {
+    .container{
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+    .large-header {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+}
 .hobby-icon {
   font-size: 2rem;
   color: #86b7fe;
